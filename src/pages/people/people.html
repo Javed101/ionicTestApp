@@ -1,0 +1,10 @@
+
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>People</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <button ion-item *ngFor="let people of (peoples | async)?.results" (click)="openDetails(people)">{{people.name}}</button>
+</ion-content>

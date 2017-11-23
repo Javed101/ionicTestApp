@@ -1,0 +1,10 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>Planets</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <button ion-item *ngFor="let planet of (planets | async)?.results" (click)="openDetails(planet)">{{planet.name}}</button>
+</ion-content>

@@ -1,0 +1,8 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>Films</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  <button ion-item *ngFor="let film of (films | async)?.results" (click)="openDetails(film)">{{film.title}}</button>
+</ion-content>

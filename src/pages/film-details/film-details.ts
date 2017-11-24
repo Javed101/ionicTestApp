@@ -31,7 +31,7 @@ export class FilmDetailsPage {
 
   shareFilm() {
     let email = {
-      to: 'javedahamad4@gmail.com',
+      to: '',
       subject: 'I love this one: ' + this.film.title,
       body: 'Can you remember the opening?<br><br>\"' + this.film.opening_crawl + '\"',
       isHtml: true

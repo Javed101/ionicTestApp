@@ -49,6 +49,7 @@ $text-color: #fff;
 $card-md-header-color: #fff;
 $card-ios-header-color: #fff;
 
+
 // App iOS Variables
 // --------------------------------------------------
 // iOS only Sass variables can go here
@@ -59,8 +60,6 @@ $card-ios-header-color: #fff;
 // App Material Design Variables
 // --------------------------------------------------
 // Material Design only Sass variables can go here
-
-
 
 
 // App Windows Variables
@@ -79,7 +78,6 @@ $card-ios-header-color: #fff;
 
 @import "ionic.theme.default";
 
-
 // Ionicons
 // --------------------------------------------------
 // The premium icon font for Ionic. For more info, please see:
@@ -93,3 +91,9 @@ $card-ios-header-color: #fff;
 
 @import "roboto";
 @import "noto-sans";
+
+$loading-ios-background:none;
+$loading-md-background:none;
+$loading-md-box-shadow-color:none;
+$loading-md-spinner-color:color($colors, secondary);
+$loading-ios-spinner-color:color($colors, secondary);
